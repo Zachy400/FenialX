@@ -15,7 +15,7 @@ async def on_ready():
 @client.command()
 async def kick(ctx, member : discord.Member, *, reason=None):
 	await member.kick(reason=reason)
-	await ctx.send('Successfully kicked {0.user}'.discord.Member)
+	await ctx.send('Successfully kicked the user.')
 	
 @client.command()
 async def ping(ctx):
