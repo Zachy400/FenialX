@@ -25,9 +25,6 @@ async def ping(ctx):
 async def clear(ctx, amount=1):
 	await ctx.channel.purge(limit=amount)
 
-@client.command()
-async def 
-
 	
 
 client.run(os.environ['DISCORD_TOKEN'])
