@@ -30,4 +30,4 @@ async def
 
 	
 
-client.run('ODczOTM4OTQ5NDU2OTQ5MjU4.YQ_tEg.diVI3uWNaF-37R5ymuHJgWZuQXM')
+client.run(os.environ['DISCORD_TOKEN'])
